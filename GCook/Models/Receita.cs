@@ -1,6 +1,5 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.Win32.SafeHandles;
 
 namespace GCook.Models;
 
@@ -8,7 +7,7 @@ namespace GCook.Models;
 public class Receita
 {
     [Key]
-    public int Id { get; set; }       
+    public int Id { get; set; }
 
     [Required]
     [StringLength(100)]
