@@ -1,7 +1,13 @@
 git config --global user.name nickicn
-git config --global user.email nicolelopes0008@gmail.com
+git config --global user.email nicolelopes0008
 
-EXECUTAR NO TERMINAL, UM POR VEZ, EM ORDEM:
-    dotnet new mvc -o GCook
-    dotnet new sln --name GCook
-    dotnet sln add GCook\GCook.csproj
+dotnet new mvc -o GCook
+dotnet new sln --name GCook
+dotnet sln add GCook\GCook.csproj
+
+
+Criar migrações
+dotnet ef migrations add criar-banco
+
+Executar migração e alterar o banco de dados
+dotnet ef database update
