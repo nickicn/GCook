@@ -146,7 +146,7 @@ public class AppDbSeed
                 Preparo = "Comece pela preparação dos ingredientes, pique os pimentões e a cebola em pequenos cubos, se preferir você também pode usar um processador de alimentos."
                         + "Coloque a carne moída para fritar em uma panela com um pouco de azeite."
                         + "Quando a carne moída já não estiver mais crua, adicione os pimentões e a cebola, mexendo bem para misturar todos os ingredientes."
-                        + "Aguarde alguns instante e adicione os temperos, mexendo novamente para misturar."
+                        + "Aguarde alguns instantes e adicione os temperos, mexendo novamente para misturar."
                         + "Frite por mais alguns minutos a carne com os demais ingredientes."
                         + "Adicione o Cream Cheese e o Queijo Cheddar, mexendo bem para evitar que queime o fundo e ajudar os queijos a derreterem."
                         + "Quando os queijos já estiverem bem derretidos e misturados com os demais ingredientes, sirva acompanhado do Pão Sirio ou de Doritos."

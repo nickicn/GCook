@@ -39,7 +39,7 @@ public class HomeController : Controller
             .ThenInclude(i => i.Ingrediente)
             .FirstOrDefault(r => r.Id == id);
 
-        return View();
+        return View(receita);
     }
 
 
