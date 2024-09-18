@@ -9,7 +9,7 @@ public class LoginVM
     public string Email { get; set; }
     [DataType(DataType.Password)]
     
-    [Display(Name = "Senha de Acesso", Prompt = "Senha de Acesso")]
+    [Display(Name = "Senha de Acesso", Prompt = "********")]
     [Required (ErrorMessage = "Por favor, informe sua senha")]
     public string Senha { get; set; }
     [Display(Name = "Manter Conectado?")]

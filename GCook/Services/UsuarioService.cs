@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace GCook.Services;
 
-public class UsuarioService : IUsuarioService
+public class UsuarioService 
 {
     private readonly AppDbContext _context;
     private readonly SignInManager<IdentityUser> _signManager;
