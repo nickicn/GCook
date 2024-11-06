@@ -6,10 +6,14 @@
 }
 
 <h1>Categorias</h1>
+<h4>Listagem</h4>
+<p class="my-3">
+    <a class="btn btn-danger" asp-action="Create">
+        <i class="bi bi-plus-circle me-2"></i>
+        Adicionar
+    </a>
+</p>
 
-<p class="mt-4 mb-2">
-    <a asp-action="Create" class="btn btn-danger">
-        <i class="bi bi-plus-circle"></i> Incluir Categoria</a>
 </p>
 <table class="table">
     <thead>
@@ -18,12 +22,9 @@
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Foto)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.ExibirHome)
             </th>
-            <th></th>
+            <th style="width: 100px;">Ações</th>
         </tr>
     </thead>
     <tbody>
@@ -33,20 +34,17 @@
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Foto)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.ExibirHome)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id" class="me-2">
-                    <i class="bi bi-pencil-square text-secondary"></i>
+                    <i class="bi bi-pencil-square text-secondary" title="Alterar"></i>
                 </a>
                 <a asp-action="Details" asp-route-id="@item.Id" class="me-2">
-                    <i class="bi bi-search text-secondary"></i>
+                    <i class="bi bi-search text-secondary" title="Ver Detalhes"></i>
                 </a>
                 <a asp-action="Delete" asp-route-id="@item.Id" class="text-decoration-none">
-                    <i class="bi bi-trash3 text-danger"></i>
+                    <i class="bi bi-trash3 text-danger" title="Excluir"></i>
                 </a>
             </td>
         </tr>
