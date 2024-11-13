@@ -13,7 +13,13 @@ dotnet ef migrations add criar-banco
 dotnet ef database update
 
 //Gerar Controller e Views de CRUD:
-dotnet-aspnet-codegenerator controller -name CategoriasController -m Categoria -dc AppDbContext -l "~/Views/Shared/_LayoutAdmin.cshtml" -outDir Controllers
+dotnet-aspnet-codegenerator controller -name ReceitasController -m Receita -dc AppDbContext -outDir Controllers -l "~/Views/Shared/_LayoutAdmin.cshtml"
+
+Alterar a View Receita\Index.cshtml
+Alterar a View Receita\Create.cshtml
+Alterar o Controller ReceitasController
+
+
 
 //Pacotes a instalar
 Microsoft.VisualStudio.Web.CodeGeneration.Design
